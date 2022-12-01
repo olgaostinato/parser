@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Parser</title>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Парсинг HTML страницы</h1>
+
+    <form action="api/parser" method="get">
+        <input type="text" name="url" id="url" placeholder="url"/>
+        <button type="submit" id="submit">Отправить</button>
+    </form>
+
+    <div id="content"></div>
+</div>
+<script src="/assets/js/scripts.js"></script>
+</body>
+</html>
